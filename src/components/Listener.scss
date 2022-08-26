@@ -1,0 +1,77 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.support {
+  margin: 10px;
+  color: rgb(189, 189, 189);
+  font-style: italic;
+}
+
+.microphone-status {
+  padding: 20px 30px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px dotted rgb(192, 192, 192);
+}
+
+.microphone-icon {
+  position: relative;
+  top: 3px;
+  left: 7px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../assets/icons/mic-off.svg') center/cover no-repeat;
+  filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(6643%)
+    hue-rotate(358deg) brightness(99%) contrast(120%);
+  animation: none;
+
+  &--on {
+    background-image: url('../assets/icons/mic-on.svg');
+    filter: brightness(0) saturate(100%) invert(20%) sepia(98%) saturate(2277%)
+      hue-rotate(96deg) brightness(102%) contrast(103%);
+    @keyframes beat {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.15);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    animation: beat 1s infinite;
+  }
+}
+
+.button__listening {
+  display: block;
+  width: 120px;
+  padding: 10px 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(126, 255, 126);
+  cursor: pointer;
+
+  &--stop {
+    background-color: rgb(255, 126, 126);
+  }
+  &--reset {
+    background-color: rgb(255, 255, 132);
+  }
+}
+
+.transcription {
+  padding: 10px 20px;
+  background-color: rgb(241, 231, 253);
+  border-radius: 5px;
+}
