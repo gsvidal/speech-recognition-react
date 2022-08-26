@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/speech-recognition-react/static/css/main.0989002d.css",
+    "main.js": "/speech-recognition-react/static/js/main.64f78678.js",
+    "static/js/787.e85517c5.chunk.js": "/speech-recognition-react/static/js/787.e85517c5.chunk.js",
+    "index.html": "/speech-recognition-react/index.html",
+    "static/media/mic-off.svg": "/speech-recognition-react/static/media/mic-off.bdfa9d85026a8db0737d.svg",
+    "static/media/mic-on.svg": "/speech-recognition-react/static/media/mic-on.b386a135fc6f50f1b194.svg",
+    "main.0989002d.css.map": "/speech-recognition-react/static/css/main.0989002d.css.map",
+    "main.64f78678.js.map": "/speech-recognition-react/static/js/main.64f78678.js.map",
+    "787.e85517c5.chunk.js.map": "/speech-recognition-react/static/js/787.e85517c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0989002d.css",
+    "static/js/main.64f78678.js"
+  ]
+}
